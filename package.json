@@ -1,0 +1,15 @@
+{
+  "name": "leica",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@abandonware/noble": "^1.9.2-26",
+    "robotjs": "^0.6.0"
+  }
+}
