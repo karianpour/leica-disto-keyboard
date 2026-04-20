@@ -162,8 +162,6 @@ func typeValue(s string) {
 				kb.SetKeys(keybd_event.VK_7)
 			} else if ch == '8' {
 				kb.SetKeys(keybd_event.VK_8)
-			} else if ch == '8' {
-				kb.SetKeys(keybd_event.VK_8)
 			} else if ch == '9' {
 				kb.SetKeys(keybd_event.VK_9)
 			} else {
