@@ -24,3 +24,9 @@ go run .
 cd go
 go run .
 ```
+
+build
+```bash
+# for M1
+go build -o disto_m1
+```

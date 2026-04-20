@@ -119,10 +119,13 @@ func handleMeasurement(buf []byte) {
 	bits := binary.LittleEndian.Uint32(buf[:4])
 	value := math.Float32frombits(bits)
 
+	mm := value * 1000
+
 	fmt.Printf("📏 %.3f m\n", value)
+	fmt.Printf("📏 %.0f mm\n", mm)
 
 	// Simulate typing the value and press Enter
-	typeValue(fmt.Sprintf("%.3f", value))
+	typeValue(fmt.Sprintf("%.0f", mm))
 }
 
 func typeValue(s string) {
